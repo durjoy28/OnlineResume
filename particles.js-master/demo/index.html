@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Portfolio </title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+</head>
+<body>
+
+<!-- particles.js container -->
+<div id="particles-js">
+<a href="javascript:void(0);" id= "menu" onclick="myFunction()">
+    <i style="margin:20px; border: 3px solid white; padding: 10px 10px;" class="fa fa-bars"></i>
+  </a>
+  <h2 style="float: right; color: silver; font-size: 1.3em; margin-top: 25px; z-index: 3; overflow: hidden;text-shadow: 0px 0px 5px red; margin-right: 5px; padding: 0;">MD SHARIFUR RAHMAN  <p>Js Programmer & <br> Security Researcher</p></h2>
+  <nav id="navbar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <ul id="navul">
+        <li class="navli">
+          <a class="nava" href="#">Home</a>
+        </li>
+        <li class="navli">
+          <a class="nava" href="profile.html">Profile</a>
+        </li>
+        <li class="navli">
+          <a class="nava" href="projects.html">Projects</a>
+        </li>
+        <li class="navli">
+          <a class="nava" href="skills.html">Skills</a>
+        </li>
+        <li class="navli">
+          <a class="nava" href="edu.html">Education</a>
+        </li>
+        <li class="navli">
+          <a class="nava" href="strength.html">Strength</a>
+        </li>
+        <li class="navli">
+          <a class="nava" href="gallery.html">Gallery</a>
+        </li>
+  </ul>
+  </nav>
+  <div id="content">
+    <div class="box-connect-box">
+      <ul class="connect-icons" style="float:right;margin-right: 30px; padding-left: 895px;">
+        <li><a class="twitter" target="_blank" href="https://twitter.com/durjoybhuiyan"><span class="fa fa-twitter"></span></a></li>
+        <li><a class="facebook" target="_blank" href="https://www.facebook.com/sharif.durjoy"><span class="fa fa-facebook"></span></a></li>
+        <li><a class="gmail" target="_blank" href="https://www.linkedin.com/in/sharifur-rahman-1b86a3148/"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+   </div>
+  </div>
+  
+</div><!-- scripts -->
+    <script>
+      function myFunction() {
+          var x = document.getElementById("navbar");
+          if (x.style.display === "block") {
+              document.getElementById("navbar").style.width = "0";
+              document.getElementById("content").style.marginLeft= "0";
+          } else {
+              document.getElementById("navbar").style.width = "200px";
+              document.getElementById("content").style.marginLeft = "20px";
+          }
+      }
+      function closeNav() {
+          document.getElementById("navbar").style.width = "0";
+          document.getElementById("content").style.marginLeft= "0";
+      }
+ </script>
+<script src="js/particles.js"></script>
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

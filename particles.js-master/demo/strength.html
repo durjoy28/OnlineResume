@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Portfolio </title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="css/particlesControl.css">
+  <link rel="stylesheet" media="screen" href="css/style3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+</head>
+<body>
+
+<!-- particles.js container -->
+<div id="particles-js">
+<a href="javascript:void(0);" id= "menu" onclick="myFunction()">
+    <i style="margin:20px; border: 3px solid white; padding: 10px 10px;" class="fa fa-bars"></i>
+  </a>
+  <nav id="navbar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <ul id="navul">
+        <li class="navli">
+          <a class="nava" href="index.html">Home</a>
+        </li>
+        <li class="navli">
+          <a class="nava" href="profile.html">Profile</a>
+        </li>
+        <li class="navli">
+          <a class="nava" href="projects.html">Projects</a>
+        </li>
+        <li class="navli">
+          <a class="nava" href="skills.html">Skills</a>
+        </li>
+        <li class="navli">
+          <a class="nava" href="edu.html">Education</a>
+        </li>
+        <li class="navli">
+          <a class="nava" href="strength.html">Strength</a>
+        </li>
+        <li class="navli">
+          <a class="nava" href="gallery.html">Gallery</a>
+        </li>
+  </ul>
+  </nav>
+  
+
+<div id="content" class="val">
+  <h4 style="color: lightblue;margin-left: 225px;">Areas of Strength</h4>
+  <ul style="color: lightgreen;margin-left: 225px; font-size: 16px;">
+    <li>
+       Programming
+    </li>
+    <li>
+      Problem Solving
+    </li>
+    <li>
+      Network Engineering
+    </li>
+    <li>
+      Cyber Security (security concern)
+    </li>
+    <li>
+      Fast Learner 
+    </li>
+  </ul>
+  <h4 style="color: lightblue;margin-left: 225px;">Personal skills</h4>
+  <ul style="color: lightgreen;margin-left: 225px; font-size: 16px;">
+    <li>
+       Good Leadership
+    </li>
+    <li>
+      Good Presenter
+    </li>
+    <li>
+      Adaptability
+    </li>
+    <li>
+      A Balanced Personality  
+    </li>
+    <li>
+      Good at Teamwork  
+    </li>
+  </ul>
+  <h4 style="color: lightblue;margin-left: 225px;">Personal Certification & Award</h4>
+  <ul style="color: lightgreen;margin-left: 225px; font-size: 16px;">
+    <li>
+      IT and Korean Language & culture Completion year 2014 
+    </li>
+    <li>
+       Volunteer at Daffodil IT Carnival-2017  
+    </li>
+  </ul>
+  </div> 
+
+</div><!-- scripts -->
+<script type="text/javascript">
+
+</script>
+    <script>
+      function myFunction() {
+          var x = document.getElementById("navbar");
+          if (x.style.display === "block") {
+              document.getElementById("navbar").style.width = "0";
+              document.getElementById("content").style.marginLeft= "0";
+          } else {
+              document.getElementById("navbar").style.width = "200px";
+              document.getElementById("content").style.marginLeft = "20px";
+          }
+      }
+      function closeNav() {
+          document.getElementById("navbar").style.width = "0";
+          document.getElementById("content").style.marginLeft= "0";
+      }
+ </script>
+<script src="js/particles.js"></script>
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

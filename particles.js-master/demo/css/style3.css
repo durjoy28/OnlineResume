@@ -1,0 +1,183 @@
+#navbar{
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+#navul{
+  list-style-type: none;
+  margin-left:0px;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+li .nava{
+  display: block;
+  color: red;
+  border-bottom: 0.2px solid grey;
+  border-right: 0.2px solid grey;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+li .nava:hover { background-color: cyan;
+}
+li .nava:active {color: maroon;
+       background-color: grey;
+}
+li .nava:focus {border: 1px solid yellow;}
+
+#content{
+    transition: margin-left .5s;
+    width: 300%;
+}
+.closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: red;
+}
+.profile{
+  width: 200%;
+  height: auto;
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  margin-left: 250px;
+}
+.skill{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-size: 100%;
+  margin-left: 220px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.img{
+  width: 380px;
+  height: 380px;
+  top: 30px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 1;
+  backface-visibility: hidden;
+}
+.img1{
+  width: 380px;
+  height: 380px;
+  top: 30px;
+  margin-left: 420px;
+  background-size: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  opacity: 1;
+  backface-visibility: hidden;
+}
+.img2{
+  width: 380px;
+  height: 380px;
+  float: left;
+  top: 300px;
+  background-size: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  opacity: 1;
+  backface-visibility: hidden;
+}
+.img3{
+  width: 380px;
+  height: 380px;
+  top: 300px;
+  margin-left: 420px;
+  background-size: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  opacity: 1;
+  backface-visibility: hidden;
+}
+.overlay{
+  position: absolute;
+  bottom: 150px;
+  left: 0;
+  right: 0;
+  background-color: rgb(73, 91, 102);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .8s ease;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/*.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position:relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}*/
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.img:hover, .img1:hover, .img2:hover, .img3:hover{
+  opacity: 1;
+}
+.img3:hover .overlay , .img1:hover .overlay , .img2:hover .overlay , .img:hover .overlay {
+  height: 68%;
+  opacity: 0.8;
+}
+.font{
+  margin-left: 240px;
+  font-style: Tahoma;
+}
+#particles-js{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  background-attachment: fixed;
+  background-size: auto;
+  background-position: absolute;
+  background-repeat: no-repeat;
+}
+#particles canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

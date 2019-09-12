@@ -1,0 +1,89 @@
+#navbar{
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+#navul{
+  list-style-type: none;
+  margin-left:0px;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+li .nava{
+  display: block;
+  color: red;
+  border-bottom: 0.2px solid grey;
+  border-right: 0.2px solid grey;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+li .nava:hover { background-color: cyan;
+}
+li .nava:active {color: maroon;
+       background-color: grey;
+}
+li .nava:focus {border: 1px solid yellow;}
+
+#content{
+    transition: margin-left .5s;
+    width: 300%;
+}
+.closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: red;
+}
+.profile{
+  width: 200%;
+  height: auto;
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  margin-left: 250px;
+}
+
+.img{
+ position: relative;
+ border-radius: 50%;
+ bottom: 20px;
+ width: 18%;
+ height:16%;
+ margin-left: 225px;
+}
+
+.font{
+  margin-left: 240px;
+  font-style: Tahoma;
+}
+#particles-js{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  background-attachment: fixed;
+  background-size: auto;
+  background-position: absolute;
+  background-repeat: no-repeat;
+}
+#particles canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
